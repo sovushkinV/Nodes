@@ -39,7 +39,7 @@ auth strong
 #allow * * * 443,8443 SOCKS5
 
 #proxy -p53129 -n -a
-users xxx:CL:xxx
+users $user:CL:$3xpass
 
 socks -p53129 -n -a -u2
 
