@@ -65,3 +65,5 @@ EOF
 systemctl restart 3proxy
 systemctl enable 3proxy
 
+echo "Your user is: $3user"
+echo "Your pass is: $3pass"
