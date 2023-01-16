@@ -66,5 +66,7 @@ EOF
 systemctl restart 3proxy
 systemctl enable 3proxy
 
-echo "Your user is: $proxyuser"
-echo "Your pass is: $proxypass"
+#echo "Your user is: $proxyuser"
+#echo "Your pass is: $proxypass"
+echo "socks5://$proxyuser:$proxypass@`curl -s ifconfig.me`:53129"
+
