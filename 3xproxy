@@ -1,7 +1,8 @@
 #!/bin/bash
 cd $HOME
 read -p "Choose your proxy password: " proxypass
-read -p "Choose your proxy username: " proxyuser
+#read -p "Choose your proxy username: " proxyuser
+proxyuser = hostname
 
 apt update
 apt-get install build-essential -y
