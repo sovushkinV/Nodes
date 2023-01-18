@@ -66,6 +66,6 @@ EOF
 systemctl restart 3proxy
 systemctl enable 3proxy
 
-echo
+echo "You can use it: "
 echo "socks5://$proxyuser:$proxypass@`curl -s ifconfig.me`:53129"
 echo
