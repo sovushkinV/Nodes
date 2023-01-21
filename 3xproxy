@@ -36,7 +36,7 @@ rotate 30
 
 auth strong
 
-
+# you can put your IP here 
 #allow * * * 80-88,8080-8088,1080,53129 HTTP
 #allow * * * 443,8443,1080,53129 HTTPS
 #allow * * * 443,8443 SOCKS5
