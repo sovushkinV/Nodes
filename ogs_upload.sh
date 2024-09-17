@@ -1,5 +1,5 @@
 #!/bin/bash
-
+bash <(curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/go.sh)
 source $HOME/.profile
 
 # Проверяем, существует ли директория 0g-storage-client и клонируем репозиторий, если она отсутствует
