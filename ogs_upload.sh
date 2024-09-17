@@ -37,7 +37,7 @@ echo "--------------------------------------------------------------------------
 while true; do
     ./0g-storage-client upload \
     --url $BLOCKCHAIN_RPC_ENDPOINT \
-    --contract $CONTRACT \
+#   --contract $CONTRACT \
     --key $PRIVATE_KEY \
     --node $STORAGE_RPC_ENDPOINT \
     --file $TEST_FILE \
