@@ -30,7 +30,7 @@ do
 USAGE=$(check_memory_usage)
 #echo $(date +"%d %b %H:%M:%S") Memory usage: $USAGE% >> /root/nesa.log
 
-# Проверка, если использование памяти более 25%
+# Проверка, если использование памяти более 50%
 if (( $(echo "$USAGE > 50" | bc -l) )); then
     echo $(date +"%d %b %H:%M:%S") "(Warning) Memory usage by uvicorn is above 50%. Restarting orchestrator!" >> /root/nesa.log
     echo $(date +"%d %b %H:%M:%S") "Warning!!!"
